@@ -1,0 +1,256 @@
+
+body {
+	background-color: #fff;
+	background-attachment:fixed;
+	}
+	
+#guide {
+	width: 100%;
+	height: 100%;
+	}
+	
+/* guide nav */
+
+#guidenav {
+	width:100%;
+	position: fixed;
+	margin-right: 300px;
+	margin-top: 330px;
+	z-index: 30;
+	padding: 10px 10px 10px 10px;
+	}
+
+#guidenav ul {
+	float:right;
+	width: 130px;
+	list-style-type: none;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 500;
+	padding-right: 10px;
+	background-color: #fff;
+	padding-left: 10px;
+	}
+
+#guidenav li {
+	padding: 10px 0 10px 0;
+	}
+	
+#guidenav li:hover {
+	background: #09F;
+	color: white;
+	cursor: pointer;
+	padding-left: 10px;
+	}
+	
+#guidenav li a:hover {
+	text-decoration: none;
+	}
+
+	
+/* title slide */
+
+.title-slide {
+	height: 1100px;
+	width: 100%;
+	overflow:hidden;
+	}
+.slide {
+	height: 900px;
+	width: 100%;
+	overflow: hidden;
+	}
+#thetext {
+	display: none; 
+	}
+	
+#titlehed1 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 100;
+	color: #333;
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 60px;
+	font-size: 60px;
+	
+	}
+	
+#titlehed2 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	width: 950px;
+	font-size: 200px;
+	letter-spacing: 50%;
+	line-height: 200px;
+	color: #c0392b;
+	margin-top: 200px;
+	margin-left: 60px;
+	}
+	
+#titlesubhed {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	width: 650px;
+	font-size: 20px;
+	margin-top: 50px;
+	margin-left: 60px;
+	background-color: #000000;
+	padding: 10px 10px 10px 10px;
+	}
+	
+
+/*the bourbon*/
+
+#bourbonglass {
+	height: 1800px;
+}
+
+#bourblurb {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 110px;
+	line-height: 175px;
+	margin-top:-1500px;
+	padding: 10px 10px 10px 10px;
+	color: #c0392b;
+	height: 1000px;
+	width: 1300px;
+	margin-left: 0px;
+	}
+	
+
+
+#thecopy {
+	width: 600px;
+	height: 900px;
+	padding: 50px 50px 50px 50px;
+	background-color: #ffffff;
+	color: #000000;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 35px;
+	line-height: 40px;
+	margin-top: 400px;
+}
+
+#hillcopy {
+	width: 600px;
+	height: 900px;
+	padding: 50px 50px 50px 50px;
+	background-color: #ffffff;
+	color: #000000;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 35px;
+	line-height: 40px;
+	margin-top: 400px;
+}
+
+.copy {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 35px;
+	line-height: 40px;
+
+}
+
+#hillmarker {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	width: 275px;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid #f1c40f;
+	background-color: #f1c40f;
+	left: 800px;
+	float:right;
+	padding-left: 10px;
+}
+
+#derbycopy {
+	width: 600px;
+	height: 900px;
+	padding: 50px 50px 50px 50px;
+	background-color: #ffffff;
+	color: #000000;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 35px;
+	line-height: 40px;
+	margin-top: 400px;
+}
+
+#bballcopy {
+	width: 600px;
+	height: 900px;
+	padding: 50px 50px 50px 50px;
+	background-color: #ffffff;
+	color: #000000;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 35px;
+	line-height: 40px;
+	margin-top: 400px;
+}
+
+#hospcopy {
+	width: 600px;
+	height: 900px;
+	padding: 50px 50px 50px 50px;
+	background-color: #ffffff;
+	color: #000000;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 35px;
+	line-height: 40px;
+	margin-top: 400px;
+}
+
+#morecopy {
+	width: 600px;
+	height: 900px;
+	padding: 50px 50px 50px 50px;
+	background-color: #ffffff;
+	color: #000000;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 35px;
+	line-height: 40px;
+	margin-top: 300px;
+}
+
+#final1 {
+	width: 600px;
+	height: 900px;
+	padding: 50px 50px 50px 50px;
+	background-color: #ffffff;
+	color: #000000;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 35px;
+	line-height: 40px;
+	}
+	
+#final2 {
+	color: #c0392b;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 60px;
+	margin-top: 30px;
+	}
+	
+#tnext {
+	margin-top: -50px;
+	margin-left: 860px;
+}
+
+#bnext {
+	margin-top: 0px;
+	margin-left: 1100px;
+}
+
+.next:hover {
+	cursor:pointer;
+}
